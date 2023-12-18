@@ -6,7 +6,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 0;
 }
@@ -14,15 +14,31 @@ body {
 h2 {
   margin: 0;
   padding: 1.1rem;
+  text-align: center;
+}
+
+h3 {
+  margin: 1rem;
+  text-align: center;
 }
 
 h4 {
   margin: 0;
   padding: 0.6rem;
+  text-align: center;
 }
 
-h3 {
-  margin: 1rem;
+h5 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+span {
+  text-align: center;
 }
 
 /* Header */
@@ -151,4 +167,17 @@ a {
 
 /* Footer */
 
-/* <img src="./images/img-locations-background.jpg" /> */
+#contacts {
+  height: 12.5rem;
+}
+
+footer h3 {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}
+
+small {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-left: 1.25rem;
+}
