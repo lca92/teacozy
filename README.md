@@ -1,0 +1,1 @@
+Front-end study. Images and specs from Codecademy. HTML/CSS was done by me.
