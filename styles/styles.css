@@ -11,6 +11,16 @@ body {
   padding: 0;
 }
 
+h2 {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+h4 {
+  margin: 0;
+  padding: 1rem;
+}
+
 /* Header */
 
 header {
@@ -47,13 +57,28 @@ a {
 
 /* Mission */
 
-h1 {
-  margin: 0;
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 43.75rem;
+  padding-top: 5rem;
+  margin: 0 3rem;
 }
 
-#mission img {
-  width: 75rem; /* 75 */
-  clip-path: inset(13% 0);
+#mission div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 7rem;
+  width: 100%;
+  height: 9rem;
+  background-color: black;
 }
 
 /* Features */
@@ -61,3 +86,7 @@ h1 {
 /* Locations */
 
 /* Footer */
+
+img {
+  max-width: 20rem;
+}
